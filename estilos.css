@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif, arial;
+	font-size: 16px;
+	background: #FFDAB9;
+}
+
+.contenedor{
+	width: 1000px;
+	margin: 20px auto;
+}
+
+header h1{
+font font-family: cursive;
+text-align: center;
+padding: 15px;
+background: #BC8F8F;
+color: #FFFAFA;
+}
+
+header{
+	background: #FFEFD5;
+}
+
+header nav{
+	width: 100%;
+}
+
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+}
+
+header nav ul li {
+float: left;
+list-style: none;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px 20px;
+	color: #A52A2A;
+}
+
+header nav ul li a:hover{
+	background: #FFFAF0;
+	color: #E9967A;
+}
+
+.main{
+	width: 680px;
+	background: white;
+	float: left;
+}
+
+.main .imagen{
+	width: 100%;
+}
+
+.main .imagen img{
+	width: 100%;
+}
+
+.main .post{
+	padding: 40px;
+}
+
+.main .post h2{
+color: #DAA520;
+margin-bottom: 20px
+}
+
+.main .post p{
+	color: #000080;
+	line-height: 27px;
+	margin-bottom: 20px;
+}
+
+aside{
+	width: 200px;
+	padding: 20px;
+	background: #D2B48C;
+	color: #778899;
+	overflow: hidden;
+}
+
+aside .widget{
+    margin-bottom: 20px;
+}
+
+aside .widget h2{
+    border-bottom: 1px solid white;
+    color: white;
+    margin-bottom: 10px;
+}
+
+aside .widget ul{
+    list-style: none;
+}
+
+aside .widget ul li{
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+aside .widget ul li a{
+    text-decoration: none;
+    color: #808000;
+    display: inline-block;
+}
+
+aside .widget ul li a:hover{
+    background: #D8BFD8;
+    color: white;
+}
+
+aside .widget p{
+line-height: 27px;
+text-align: justify;
+}
+
+footer{
+    width: 680px;
+    padding: 40px;
+    text-align: center;
+    background: #778899;
+    color: #DAA520;
+    overflow: hidden;
+}
